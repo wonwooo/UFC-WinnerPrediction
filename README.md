@@ -12,7 +12,8 @@
 - Kaggle의 [UFC-Fight historical data from 1993 to 2019](<https://github.com/graykode/toeicbert>)의 데이터를 이용해 승자 예측을 위한 ANN Classifier를 구현한 프로젝트
 - 1999년 이전의 경기 데이터는 Rule의 변경으로 사용하지 않았고, 약 5000개의 경기 데이터를 사용
 - Training+Val : Test = 9 : 1
-- 38개의 Numerical 변수와 3개의 Categorical 변수를 사용
+- 경기 내용이 담긴 변수들은 경기 전 승자 예측에 사용할 수 없으므로 제거
+- 두 선수의 능력치가 담긴 38개의 Numerical 변수와 3개의 Categorical 변수를 사용
 
 ## Features
 
