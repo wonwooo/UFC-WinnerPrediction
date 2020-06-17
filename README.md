@@ -62,7 +62,7 @@ no_of_rounds : 해당 경기의 라운드 수(3/5)
 2. BLUE코너의 Stance(오른손잡이/왼손잡이/양손잡이[Orthodox/Southpaw/Switch])
 3. 게임의 라운드 수(3라운드/5라운드)
 ```
-- 본 모델에서는 범주형 변수를 ANN의 input으로 사용하기 위해 Stance는 3차원, 라운드 수는 2차원의 One-hot vector로 변환한 다음 Embedding(Linear) Layer를 거쳐 3차원의 Numerical value로 변환하여 Input으로 사용
+- 본 모델에서는 범주형 변수를 ANN의 input으로 사용하기 위해 Stance는 3차원, 라운드 수는 2차원의 One-hot vector로 변환한 다음 Embedding(Linear) Layer를 거쳐 Numerical value로 변환하여 Input으로 사용
 -  Embedding layer는 다른 Linear Layer와 마찬가지로 Backprop을 통해 학습
 
 ## Structure of ANN Classifier for UFC
